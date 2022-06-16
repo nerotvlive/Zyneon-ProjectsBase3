@@ -1,0 +1,107 @@
+name: ProjectsBase
+version: 3.31.0
+api-version: 1.18
+description: An universal plugin for Zyneon projects
+author: nerotvlive
+website: https://www.zyneonstudios.com
+main: live.nerotv.Preloader
+
+softdepend:
+  - LuckPerms
+  - floodgate
+  - ProtocolLib
+
+commands:
+  AchievementPoints:
+    aliases: [ap,achievement,achievements,achievementspoints,points]
+  Brieftasche:
+    aliases: [geld,coin,coins,mark,marks]
+  Roleplay:
+    aliases: [rp,rpmode,roleplaymode]
+  Tell:
+    aliases: [msg,r,reply]
+  Author:
+    aliases: [projectsbase,pb,plugin,system,autor,autorin,autoren,projekt,project,zyneon]
+  Shop:
+    aliases: [reward,apshop]
+  Gamemode:
+    aliases: [gm,spielmodus,sm]
+  Warp:
+    aliases: [farmwelt,wrp,nether,end,farm,fw,warpgui,spawn]
+  Teleport:
+    aliases: [tp,goto]
+  SRL:
+    aliases: [stop,rl,reload,serverreload,servershutdown,shutdown,restart]
+  Heal:
+  Kill:
+  Enderchest:
+    aliases: [ec,enderc,echest]
+  Feed:
+  Clearchat:
+    aliases: [chatclear,cc,cchat,clearc]
+  Sudo:
+  Time:
+  Day:
+  Night:
+  "?":
+    aliases: [help,info,rules,regeln,serverinfo,si,information,ver,plugins,pl]
+  Broadcast:
+  Job:
+    aliases: [rpjob,roleplayjob,arbeit]
+  Name:
+    aliases: [rpname,roleplayname]
+  Difficulty:
+    aliases: [diff,dif]
+  Settings:
+    aliases: [Einstellungen,Optionen,Options]
+  Fly:
+  Weather:
+  Rucksack:
+    aliases: [sack,beutel,rs,pack]
+  Rain:
+  Sun:
+  Thunder:
+    aliases: [storm]
+  Say:
+  Me:
+    aliases: [do]
+  Buch:
+    aliases: [feder,book,brief]
+  Disconnect:
+    aliases: [disc,verlassen,quit,q]
+  Maintenance:
+    aliases: [wartungen,wartungsmodus]
+  Check:
+  Vanish:
+    aliases: [v]
+  Force:
+  Team:
+  God:
+  INF:
+    aliases: [influencer,hervorhebung,chb]
+  Ping:
+  ChangeMap:
+    aliases: [map,cm,mapchange,mc,new,old]
+  Achievements:
+    aliases: [achievement,ach,erf,er,erfolge,challenge,challenges,herausforderung,herausforderungen]
+  Rules:
+    aliases: [regeln,regelwerk,projektregeln]
+  Speed:
+    aliases: [sp,spd]
+  Back:
+  Autoclose:
+  RedstoneLock:
+    aliases: [redstone]
+  CustomModelData:
+    aliases: [cmd,custommd,custommodeld,cmodeld,cmodeldata,custommdata,customdata]
+  World:
+    aliases: [welt]
+  Item:
+  Invsee:
+    aliases: [inv]
+  DiscordLink:
+    aliases: [link,dl]
+  Shout:
+    aliases: [schrei,schreien,s]
+  Whisper:
+    aliases: [flüster,flüstern,f,w]
